@@ -15,3 +15,12 @@ This is a basic web app to learn TypeScript. The app is going to randomly genera
 - Parcel
 - Faker
 - Google maps
+
+## Configurations
+
+- Install the dependencies [npm install]
+- Start the webapp [npx parcel index.html]
+
+## Note
+
+If you do not have a credit card tied to your Google account, or do not want to add one, then please use this pre-generated API key instead: AIzaSyBNLrJhOMz6idD05pzfn5lhA-TAw-mAZCU
