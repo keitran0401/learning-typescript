@@ -1,4 +1,5 @@
 /// <reference types="@types/google.maps" />
+
 // Instructions to every other class
 // on how they can be an argument to 'addMarker'
 export interface Mappable {
@@ -7,9 +8,11 @@ export interface Mappable {
     lng: number;
   };
   markerContent(): string;
-  color: string;
 }
 
+// This CustomMap class hides Google Maps functionality
+// so that we don't accidentally break things by calling
+// methods that we don't really know
 export class CustomMap {
   private googleMap: google.maps.Map;
 
