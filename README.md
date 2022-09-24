@@ -18,8 +18,8 @@ This is a basic web app to learn TypeScript. The app is going to randomly genera
 
 ## Configurations
 
-- Install the dependencies [npm install]
-- Start the webapp [npx parcel index.html]
+- Install the dependencies `npm install`
+- Start the webapp `npx parcel index.html`
 
 ## Note
 
